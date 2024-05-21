@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: microservice-authorization-server
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/authorizationdb
+    password: Margrete1
+    username: postgres
+    jpa:
+      show-sql: true
+      hibernate:
+        auto: update
+
+
+
+
+
+
+server:
+  port: 9872
+
